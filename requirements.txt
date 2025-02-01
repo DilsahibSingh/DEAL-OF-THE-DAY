@@ -1,0 +1,18 @@
+# Web framework for building the Flask app
+Flask==2.2.5
+
+# HTTP library for making requests to websites
+requests==2.31.0
+
+# HTML parsing library for web scraping
+beautifulsoup4==4.12.2
+
+# Web automation framework for scraping dynamic content
+selenium==4.15.2
+
+# Task scheduler for automating periodic scraping
+apscheduler==3.10.4
+
+# XML and HTML parsing library required for BeautifulSoup
+lxml==4.9.3
+
