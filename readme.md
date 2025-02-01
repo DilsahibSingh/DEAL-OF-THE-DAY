@@ -4,7 +4,7 @@
 **"Deal of the Day"** is a web application that scrapes and displays **the best daily deals** from Amazon.  
 Built using **Flask, Selenium, and BeautifulSoup**, this responsive app dynamically fetches deals and updates them automatically every hour.  
 
-🔗 WEBAPP LINK - 
+🔗 WEBAPP LINK - COMING SOON
 
 ---
 
