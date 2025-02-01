@@ -16,3 +16,4 @@ apscheduler==3.10.4
 # XML and HTML parsing library required for BeautifulSoup
 lxml==4.9.3
 
+gunicorn==21.2.0
