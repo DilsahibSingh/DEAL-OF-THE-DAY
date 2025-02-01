@@ -1,3 +1,4 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -5,9 +6,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import time
 import json
-import os
 
-# Get the absolute path of ChromeDriver inside the project folder
+# Path of ChromeDriver inside the project folder
 chromedriver_path = os.path.join(os.getcwd(), "chromedriver-win64", "chromedriver.exe")
 
 # Set Chrome options
