@@ -1,7 +1,7 @@
 # 🛒 DEAL OF THE DAY - Web Scraper & Flask Web App
 
 ## 🚀 About the Project
-**"Deal of the Day"** is a web application that scrapes and displays **the best daily deals** from Amazon and other platforms.  
+**"Deal of the Day"** is a web application that scrapes and displays **the best daily deals** from Amazon.  
 Built using **Flask, Selenium, and BeautifulSoup**, this responsive app dynamically fetches deals and updates them automatically every hour.  
 
 🔗 WEBAPP LINK - 
