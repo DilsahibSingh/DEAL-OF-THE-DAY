@@ -5,15 +5,22 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import time
 import json
+import os
 
+# Get the absolute path of ChromeDriver inside the project folder
+chromedriver_path = os.path.join(os.getcwd(), "chromedriver-win64", "chromedriver.exe")
+
+# Set Chrome options
 options = Options()
-options.add_argument('--headless')  # Enabling headless mode for production
-options.add_argument('--disable-gpu')
+options.add_argument("--headless")  # Headless mode
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--disable-gpu")
 
-service = Service(r'C:\Users\dilsa\OneDrive\Documents\code\PROJECTS\DEAL_OF_THE_DAY\chromedriver-win64\chromedriver-win64\chromedriver.exe')
-
-# Initialize the WebDriver
+# Set ChromeDriver service with the correct path
+service = Service(chromedriver_path)
 driver = webdriver.Chrome(service=service, options=options)
+
 baseurl = 'https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb'
 driver.get(baseurl)
 
