@@ -9,7 +9,7 @@ Built using **Flask, Selenium, and BeautifulSoup**, this responsive app dynamica
 ---
 
 ## 📸 Preview
-![Deal of the Day Preview](https://your-image-link.com)
+https://github.com/user-attachments/assets/b4e15d8c-3ab9-4b6b-b9f1-11e2a467b792
 
 ---
 
